@@ -27,9 +27,9 @@ By making a `GET` request to the API homepage (`/`) you get an answer with all t
 "/text/translations/:ch/:verse": "Get text translations by chapter and verse",
 "/text/transliterations/:ch/:verse": "Get text transliterations by chapter and verse",
 "/text/commentaries/:ch/:verse": "Get text commentaries by chapter and verse",
-"/chapters/:ch": "Get chapters",
-"/chapters/:ch/transliterations": "Get chapters transliterations",
-"/chapters/:ch/translations": "Get chapters translations",
+"/chapter/:ch": "Get chapters",
+"/chapter/transliteration/:ch": "Get chapters transliterations",
+"/chapter/translation/:ch": "Get chapters translations",
 "/chapter/meaning/:ch": "Get chapter meaning",
 "/chapter/summaries/:ch": "Get chapter summaries"
 }
